@@ -63,7 +63,7 @@ header{
 
 .btn{
     background-color: #ffdd00;
-    color: #ffdd00;
+    color: #000000;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 15px;
@@ -75,7 +75,7 @@ header{
     margin: 100px auto;
     text-align: justify;
     line-height: 25px;
-    color: #ffdd00;
+    color: #000000;
 }
 
 #servicos{
@@ -109,7 +109,7 @@ header{
 form{
     display: flex;
     flex-direction: column;
-    color: #ffdd00;
+    color: #000000;
 }
 
 form input, 
@@ -128,7 +128,7 @@ form .enviar{
 
 .btn-enviar{
     background-color: #ffdd00;
-    color: #ffdd00;
+    color: #000000;
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 15px;
@@ -188,7 +188,7 @@ p{
         left: 40%;
         width: 200px;
         text-align: center;
-        color: white;
+        color: #000000;
     }
 
     .conteiner {
