@@ -1,0 +1,242 @@
+
+/*fazer reset as propriedades do site*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Atribuir propriedades gerais ao site */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    background-color: #ffdd00;
+}
+
+.links{
+    display: flex;
+}
+
+.links li{
+    margin-left: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links a:hover{
+    text-decoration: underline 2px solid black;
+    margin-top: 20px;
+}
+
+.slideshow{
+    position: relative;
+}
+
+.texto-slideshow{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 200px;
+    text-align: center;
+    color: black;
+}
+
+.texto-slideshow h1{
+    line-height: 30px;
+}
+
+.btn{
+    background-color: #ffdd00;
+    color: #ffdd00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+}
+
+.conteiner{
+    width: 80%;
+    margin: 100px auto;
+    text-align: justify;
+    line-height: 25px;
+    color: #ffdd00;
+}
+
+#servicos{
+    margin-top: 30px;
+}
+
+/* Cartões */
+.cartoes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 40px;
+    text-align: center;
+    margin: 100px;
+}
+
+.cartao{
+    background-color: #ffdd00;
+    width: 200px;
+    box-shadow: 5px 5px 10px #ffdd00;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.atendimento{
+    margin-top: 15px;
+}
+
+/* Formulário */
+form{
+    display: flex;
+    flex-direction: column;
+    color: #ffdd00;
+}
+
+form input, 
+form textarea{
+    background-color: #ffdd00;
+    border: 0px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 900px;
+}
+
+form .enviar{
+    width: 100%;
+}
+
+.btn-enviar{
+    background-color: #ffdd00;
+    color: #ffdd00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 15px;
+    border: none;
+    width: 150px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffdd00;
+}
+
+p{
+    font-weight: bold;
+}
+
+.redes-sociais img{
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.redes-sociais{
+    display: flex;
+}
+
+.comunicacoes{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* media quaries */
+
+@media(max-width: 597px){
+
+    header{
+        flex-direction: column;
+    }
+
+    .links{
+        margin-top: 10px;
+    }
+
+    .links a{
+        font-weight: normal;
+        font-size: 15px;
+    }
+
+    .texto-slideshow {
+        position: relative;
+        top: 40%;
+        left: 40%;
+        width: 200px;
+        text-align: center;
+        color: white;
+    }
+
+    .conteiner {
+        margin: 30px auto;
+        font-size: 14px;
+    }
+
+    #serviços {
+        margin-top: 15px;
+    }
+
+    .cartoes {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .cartao{
+        box-shadow: 5px 5px 10px #ffdd00;
+        border-radius: 5px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+    
+    form .enviar{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }    
+
+    footer>p{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .redes-sociais img {
+       width: 35px;
+       margin-top: 0px;
+    }
+    
+    .comunicacoes p{
+        font-size: 20px;
+    }
+}
