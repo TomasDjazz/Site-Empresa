@@ -239,4 +239,9 @@ p{
     .comunicacoes p{
         font-size: 20px;
     }
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
